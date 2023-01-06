@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+ul.unstyle {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+.block-scroll {
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 133px;
+}
+.button {
+  padding: 15px 35px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+.button--rounded-md {
+  border-radius: 5px;
+}
+.button--rounded-lg {
+  border-radius: 47px;
+}
+.button--blue {
+  background-color: #3734a9;
+  box-shadow: 0px 67px 80px rgba(55, 52, 169, 0.07),
+    0px 43.4259px 46.8519px rgba(55, 52, 169, 0.0531481),
+    0px 25.8074px 25.4815px rgba(55, 52, 169, 0.0425185),
+    0px 13.4px 13px rgba(55, 52, 169, 0.035),
+    0px 5.45926px 6.51852px rgba(55, 52, 169, 0.0274815),
+    0px 1.24074px 3.14815px rgba(55, 52, 169, 0.0168519);
+}
+.button--orange {
+  background-color: #ff7f5c;
+  box-shadow: 0px 67px 80px rgba(255, 127, 92, 0.07),
+    0px 43.4259px 46.8519px rgba(255, 127, 92, 0.0531481),
+    0px 25.8074px 25.4815px rgba(255, 127, 92, 0.0425185),
+    0px 13.4px 13px rgba(255, 127, 92, 0.035),
+    0px 5.45926px 6.51852px rgba(255, 127, 92, 0.0274815),
+    0px 1.24074px 3.14815px rgba(255, 127, 92, 0.0168519);
+}
+.button--circle {
+  border-radius: 50%;
+}
+.button--full {
+  display: block;
+  width: 100%;
+}
+.testimonials-slider .slick-arrow {
+  top: auto;
+  bottom: -80px;
+}
+.testimonials-slider .slick-arrow > button {
+  border: none;
+  background: #3734a9;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.testimonials-slider .slick-arrow svg path {
+  stroke: #fff;
+}
+.testimonials-slider .slick-arrow.slick-disabled > button {
+  background: #fff;
+}
+.testimonials-slider .slick-arrow.slick-disabled svg path {
+  stroke: #453232;
+}
+.testimonials-slider .slick-prev:before,
+.testimonials-slider .slick-next:before {
+  display: none;
+}
+.testimonials-slider .slick-prev {
+  left: 0;
+}
+.testimonials-slider .slick-next {
+  left: 45px;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 8%;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonials-slider .slick-arrow {
+    bottom: -40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+@media (max-width: 576px) {
+  .button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.avatar {
+  border-radius: 50%;
+  width: 54px;
+  overflow: hidden;
+
+  @media (max-width: 1200px) {
+    width: 40px;
+    height: 40px;
+  }
+}

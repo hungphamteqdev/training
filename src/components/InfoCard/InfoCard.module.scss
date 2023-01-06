@@ -1,0 +1,38 @@
+.info-card {
+  padding: 59px 48px 37px 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+
+  > div:first-child {
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+  }
+  &__text {
+    margin-left: 32px;
+
+    > h3 {
+      font-weight: 800;
+      font-size: 24px;
+      margin-bottom: 22px;
+    }
+    > p {
+      color: #757095;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 5%;
+  }
+  @media (max-width: 576px) {
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+    &__text {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+}

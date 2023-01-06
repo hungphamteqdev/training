@@ -1,0 +1,38 @@
+.related-companies {
+  margin-top: 71px;
+  margin-bottom: 95px;
+  text-align: center;
+
+  h3 {
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  &__logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 992px) {
+    &__logos {
+      flex-wrap: wrap;
+      gap: 20px;
+      > * {
+        width: calc(100% / 3 - 40px);
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  @media (max-width: 576px) {
+    &__logos {
+      gap: 40px;
+      > * {
+        width: calc(50% - 40px);
+      }
+    }
+  }
+}

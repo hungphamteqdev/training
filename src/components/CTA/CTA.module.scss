@@ -1,0 +1,44 @@
+.cta {
+  margin-bottom: 115px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 40px 34px 30px 28px;
+    border: 1px solid #dee1e6;
+    box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.03);
+    border-radius: 15px;
+
+    > p {
+      width: 795px;
+      font-size: 22px;
+      color: #757095;
+    }
+    > a {
+      padding-left: 64px;
+      padding-right: 64px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__inner {
+      flex-direction: column;
+      gap: 30px;
+      > p {
+        width: auto;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    margin-bottom: 15%;
+  }
+  @media (max-width: 768px) {
+    &__inner {
+      > a {
+        width: 100%;
+        padding: 15px;
+      }
+    }
+  }
+}

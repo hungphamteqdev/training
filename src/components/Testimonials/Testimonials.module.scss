@@ -1,0 +1,137 @@
+.testimonials {
+  margin-bottom: 126px;
+  &__heading {
+    margin-bottom: 40px;
+    width: 30%;
+    > p {
+      color: #3734a9;
+      margin-bottom: 13px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    > h2 {
+      font-size: 40px;
+      font-weight: 800;
+    }
+  }
+  &__slider {
+    position: relative;
+    > img {
+      position: absolute;
+      top: 33px;
+      left: -35px;
+    }
+  }
+  &__slider-item {
+    display: flex;
+    align-items: center;
+  }
+  &__slider-image {
+    width: 50%;
+    background-color: #f3f7fa;
+    border-radius: 15px;
+    position: relative;
+    > img:nth-child(2) {
+      position: absolute;
+      right: -35px;
+      top: calc(50% - 35px);
+    }
+    > img:nth-child(3) {
+      position: absolute;
+      top: 33px;
+      left: -35px;
+    }
+  }
+  &__slider-text {
+    width: 50%;
+    padding-left: 76px;
+    > img {
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+    > h3 {
+      font-size: 20px;
+      font-weight: 800;
+      width: 275px;
+      margin-bottom: 16px;
+    }
+    > p {
+      color: #757095;
+      font-size: 16px;
+      width: 465px;
+      margin-bottom: 14px;
+      &:last-child {
+        font-size: 14px;
+      }
+      + p {
+        margin-top: 30px;
+      }
+    }
+    > h4 {
+      font-size: 16px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &__heading {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 992px) {
+    &__heading {
+      margin-bottom: 40px;
+    }
+    &__slider-item {
+      flex-flow: column;
+    }
+    &__slider-image {
+      width: 100%;
+      margin-bottom: 40px;
+      > img:first-child {
+        width: 100%;
+      }
+      > img:last-child {
+        display: none;
+      }
+    }
+    &__slider-text {
+      width: 100%;
+      padding-left: 0;
+      > h3 {
+        width: auto;
+      }
+      > p {
+        width: auto;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    margin-bottom: 20%;
+    &__slider {
+      > img {
+        left: 0;
+      }
+    }
+    &__heading {
+      width: auto;
+      margin-bottom: 5%;
+      > p {
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+    &__slider-image {
+      margin-bottom: 5%;
+    }
+  }
+  @media (max-width: 576px) {
+    &__heading {
+      > h2 {
+        font-size: 28px;
+      }
+    }
+  }
+}

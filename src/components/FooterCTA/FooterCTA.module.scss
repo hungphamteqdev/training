@@ -1,0 +1,50 @@
+.footer-cta {
+  background-color: #3734a9;
+  padding: 91px 0 58px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__text {
+    width: 50%;
+    padding-right: 55px;
+    > div {
+      > * {
+        color: #fff;
+      }
+      > p:first-child {
+        font-size: 14;
+        font-weight: 700;
+      }
+    }
+  }
+  &__form {
+    width: 45%;
+    padding-left: 90px;
+    > form {
+      input[type='text'] {
+        background: #5c5ab8;
+        &::placeholder {
+          color: #bbb5e0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 10% 0;
+    &__inner {
+      flex-flow: column;
+    }
+    &__text {
+      width: auto;
+      padding-right: 0;
+    }
+    &__form {
+      margin-top: 5%;
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+}
