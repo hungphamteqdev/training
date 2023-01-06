@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/training/static/css/main.60a0a574.css",
+    "main.js": "/training/static/js/main.fd7dbd53.js",
+    "static/js/787.7aa3ad2e.chunk.js": "/training/static/js/787.7aa3ad2e.chunk.js",
+    "static/media/header-cta-banner.png": "/training/static/media/header-cta-banner.d52a3dfa9c794ea15a94.png",
+    "static/media/header-bg.png": "/training/static/media/header-bg.05fd0abf6aab54bc203f.png",
+    "static/media/slider-image.png": "/training/static/media/slider-image.be93c5ff54be05a60ffc.png",
+    "static/media/section1-bg.png": "/training/static/media/section1-bg.e6d9ce6f47a10db55c1e.png",
+    "static/media/section2-bg.png": "/training/static/media/section2-bg.ea601d52628b998c0ae0.png",
+    "static/media/avatar-7.png": "/training/static/media/avatar-7.43981e69f6540d341cd4.png",
+    "static/media/slick.svg": "/training/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/training/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/training/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/training/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/training/index.html",
+    "main.60a0a574.css.map": "/training/static/css/main.60a0a574.css.map",
+    "main.fd7dbd53.js.map": "/training/static/js/main.fd7dbd53.js.map",
+    "787.7aa3ad2e.chunk.js.map": "/training/static/js/787.7aa3ad2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60a0a574.css",
+    "static/js/main.fd7dbd53.js"
+  ]
+}
